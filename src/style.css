@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.get {
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    background: var(
+      --Gradient,
+      linear-gradient(
+        122deg,
+        #f9c88f 3.72%,
+        #f87c61 19.56%,
+        #ab26f8 84.21%,
+        #d75efc 100.63%
+      )
+    );
+    font-weight: 600;
+  }
+  .gradient-text {
+    background: var(
+      --Gradient,
+      linear-gradient(
+        122deg,
+        #f9c88f 3.72%,
+        #f87c61 19.56%,
+        #ab26f8 84.21%,
+        #d75efc 100.63%
+      )
+    );
+    background-clip: text;
+    color: transparent;
+  }
+  .get1 {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: var(
+      --Gradient,
+      linear-gradient(
+        122deg,
+        #f9c88f 3.72%,
+        #f87c61 19.56%,
+        #ab26f8 84.21%,
+        #d75efc 100.63%
+      )
+    );
+    margin-top: 20px;
+    font-weight: 600;
+  }
+ 
+
+

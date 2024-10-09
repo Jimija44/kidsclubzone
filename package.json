@@ -1,0 +1,14 @@
+{
+  "name": "kidsclubzone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+"kids-css":"tailwindcss build src/style.css -o public/style.css"  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
